@@ -1,0 +1,25 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.error-image {
+  height: 350px;
+  width: 350px;
+}
+
+.text {
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.message {
+  color: white;
+  font-size: 16px;
+}

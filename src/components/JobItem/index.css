@@ -1,0 +1,82 @@
+.job-item {
+  background-color: #202020;
+  border-radius: 12px;
+  padding: 30px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.company-logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 8px;
+  height: 25px;
+  width: 25px;
+}
+
+.rating {
+  color: white;
+  font-size: 16px;
+}
+
+.location-package {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.location-container {
+  display: flex;
+}
+
+.location {
+  color: white;
+  font-size: 14px;
+  margin-right: 20px;
+  line-height: 1.5;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 8px;
+  color: white;
+}
+
+.package {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}

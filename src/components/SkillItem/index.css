@@ -1,0 +1,40 @@
+.skill-item {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-item {
+    width: 420px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+}
+
+.skill-name {
+  color: white;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-name {
+    font-size: 18px;
+  }
+}
+
+.skill-image {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-image {
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+  }
+}

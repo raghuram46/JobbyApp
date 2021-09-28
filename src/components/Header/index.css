@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #202020;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    margin-right: 30px;
+  }
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    display: inline;
+  }
+}
+
+.mobile-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-button {
+    display: none;
+  }
+}
+
+.logout-btn {
+  color: white;
+  background-color: #6366f1;
+  padding: 8px;
+  width: 110px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-btn {
+    display: inline;
+  }
+}
+
+.mobile-logout {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-logout {
+    display: none;
+  }
+}
+
+.icon {
+  color: white;
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,14 @@
+.similar-job-item {
+  background-color: #202020;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 35px;
+  margin-right: 35px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item {
+    width: 380px;
+  }
+}
