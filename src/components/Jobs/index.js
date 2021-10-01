@@ -106,9 +106,9 @@ class Jobs extends Component {
     }
 
     const response = await fetch(profileApiUrl, options)
-    const data = await response.json()
 
     if (response.ok === true) {
+      const data = await response.json()
       const updatedData = {
         name: data.profile_details.name,
         profileImageUrl: data.profile_details.profile_image_url,

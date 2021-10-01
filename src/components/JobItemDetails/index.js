@@ -54,9 +54,9 @@ class JobItemDetails extends Component {
     }
 
     const response = await fetch(jobDetailsApiUrl, options)
-    const data = await response.json()
 
     if (response.ok === true) {
+      const data = await response.json()
       const updatedData = {
         companyLogoUrl: data.job_details.company_logo_url,
         companyWebsiteUrl: data.job_details.company_website_url,

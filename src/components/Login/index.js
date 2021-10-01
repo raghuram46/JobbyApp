@@ -31,11 +31,12 @@ class Login extends Component {
     }
 
     const response = await fetch(apiUrl, options)
-    const data = await response.json()
 
     if (response.ok === true) {
+      const data = await response.json()
       this.onSubmitSuccess(data.jwt_token)
     } else {
+      const data = await response.json()
       this.onSubmitFailure(data.error_msg)
     }
   }
